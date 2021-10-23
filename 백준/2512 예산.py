@@ -1,4 +1,4 @@
-count_local = int(input())
+countLocal = int(input())
 local = list(map(int, input().split()))
 budget = int(input())
 left, right = 0, max(local)
